@@ -20,6 +20,6 @@ public class Commands {
         commandsMap.put("park", ParkingLot.class.getMethod("park", String.class));
         commandsMap.put("leave", ParkingLot.class.getMethod("leave", String.class,String.class));
         commandsMap.put("status", ParkingLot.class.getMethod("status"));
-        //commandsMap.put("status", ParkingLot.class.getMethod("status")); 
+        
     }
 }
